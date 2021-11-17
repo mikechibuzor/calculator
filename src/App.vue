@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper bg-main-background  h-screen w-screen flex  xl:items-center justify-center ">
+  <div class="wrapper bg-main-background   h-screen w-screen flex  xl:items-center justify-center ">
     <div class="calculator-container mt-20  xl:w-1/4 2xl:w-2/5  rounded ">
 
       <!--calculator header  -->
@@ -23,8 +23,8 @@
       </div>
 
       <!-- calculator screen -->
-      <div class="calculator-screen px-5 2xl:px-8 py-1.5 bg-screen-background rounded-md flex items-center justify-end ">
-        <p class="text-4xl text-white font-medium screen">{{ screen }}</p>
+      <div class="calculator-screen w-full px-5 2xl:px-8 py-1.5 bg-screen-background rounded-md flex items-center justify-end ">
+        <p id="screen" class="text-4xl max-w-full flex flex-wrap overflow-hidden  text-white font-medium screen">{{ screen }}</p>
       </div>
 
       <!-- calculator buttons -->
@@ -149,6 +149,7 @@ export default {
 </script>
 
 <style scoped>
+
 
 
 </style>
