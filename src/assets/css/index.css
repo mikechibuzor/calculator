@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@700&display=swap');
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+button {
+    transition: all .05s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(.9);
+}
+
+.theme-p {
+    font-size: .65rem;
+    letter-spacing: .15rem;
+}
+
+.numbers span {
+    font-size: .6rem;
+}
+
+.calculator-screen {
+    height: 12vh;
+}
+
+
+
+html.theme1 .wrapper {
+    background: hsl(222, 26%, 31%);
+}
+
+
+html.theme1 .calculator-screen {
+    background-color: hsl(224, 36%, 15%);
+}
+
+html.theme1 .calculator-buttons {
+    background-color: hsl(223, 31%, 20%);
+}
+
+
+html.theme2 .upper button {
+    color: hsl(221, 14%, 31%);
+    font-weight: medium;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 1px 2.5px hsl(28, 16%, 65%);
+}
+
+html.theme1 .lower button {
+    color: white;
+}
+
+html.theme1 .lower .reset {
+    background: hsl(225, 21%, 49%);
+    box-shadow: 1px 2.5px hsl(224, 28%, 35%);
+
+}
+
+html.theme1 .equal {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 1px 2.5px hsl(6, 70%, 34%);
+}
+
+html.theme1 .toggler {
+    background-color: hsl(223, 31%, 20%);
+}
+
+
+
+
+/* responsiveness */
+@media screen and (width: 1440px) {
+    .calculator-container {
+        width: 30%;
+    }
+
+    .upper,
+    .lower {
+        column-gap: 1.2rem;
+        row-gap: 1.5rem;
+        padding-left: 1.45rem;
+        padding-right: 1.45rem;
+    }
+
+    .upper button {
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+
+    }
+
+    .lower button {
+        padding-top: .9rem;
+        padding-bottom: .9rem;
+
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .calculator-screen {
+        height: 15vh;
+
+    }
+}

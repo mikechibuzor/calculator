@@ -1,0 +1,122 @@
+
+/* theme 1 */
+html.theme1 .wrapper {
+    background: hsl(222, 26%, 31%);
+}
+html.theme1 .calculator-screen {
+    background-color: hsl(224, 36%, 15%);
+}
+html.theme1 .calculator-buttons {
+    background-color: hsl(223, 31%, 20%);
+}
+html.theme1 .upper button {
+    color: hsl(221, 14%, 31%);
+    font-weight: medium;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 1px 2.5px hsl(28, 16%, 65%);
+}
+html.theme1 .lower button {
+    color: white;
+}
+html.theme1 .lower .reset {
+    background: hsl(225, 21%, 49%);
+    box-shadow: 1px 2.5px hsl(224, 28%, 35%);
+}
+html.theme1 .equal {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 1px 2.5px hsl(6, 70%, 34%);
+}
+html.theme1 .toggler {
+    background-color: hsl(223, 31%, 20%);
+}
+
+html.theme1 .ball {
+    background-color: hsl(6, 63%, 50%);
+}
+
+
+/* theme 2 */
+html.theme2 .wrapper {
+    background: hsl(0, 0%, 90%);
+}
+html.theme2 .calculator-screen {
+    background-color: hsl(0, 0%, 93%);
+  
+}
+html.theme2 .calculator-buttons {
+    background-color: hsl(0, 5%, 81%);
+}
+html.theme2 .upper button {
+    color: hsl(221, 14%, 31%);
+    font-weight: medium;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 1px 2.5px hsl(28, 16%, 65%);
+}
+html.theme2 .lower button {
+    color: white;
+}
+html.theme2 .lower .reset,
+html.theme2 #del {
+    background: hsl(185, 42%, 37%);
+    box-shadow: 1px 2.5px hsl(224, 28%, 35%);
+}
+html.theme2 .equal {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 1px 2.5px hsl(6, 70%, 34%);
+}
+html.theme2 .toggler {
+    background-color: hsl(0, 5%, 81%);
+}
+
+html.theme2 .theme-p,
+html.theme2 .text p,
+html.theme2 .screen{
+    color: hsl(60, 10%, 19%)
+}
+html.theme2 .ball {
+    background-color: hsl(6, 63%, 50%);
+}
+
+/* theme 3 */
+html.theme3 .wrapper {
+    background:hsl(268, 75%, 9%);
+}
+html.theme3 .calculator-screen {
+    background-color: hsl(268, 71%, 12%);
+  
+}
+html.theme3 .calculator-buttons {
+    background-color: hsl(0, 5%, 81%);
+}
+html.theme3 .upper button {
+    color: hsl(52, 100%, 62%);
+    font-weight: medium;
+    background-color: hsl(268, 71%, 12%);
+    box-shadow: 1px 2.5px hsl(285, 91%, 52%);
+}
+html.theme2 .lower button {
+    color: white;
+}
+html.theme3 .lower .reset,
+html.theme3 #del {
+    color: white;
+    background: hsl(281, 89%, 26%);
+    box-shadow: 1px 2.5px hsl(285, 91%, 52%);
+}
+html.theme3 .equal {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 1px 2.5px hsl(177, 92%, 70%);
+}
+html.theme3 .toggler {
+    background-color: hsl(268, 71%, 12%);    
+}
+
+html.theme3 .ball{
+    background-color: hsl(176, 100%, 44%);
+}
+
+html.theme3 .theme-p,
+html.theme3 .text p,
+html.theme3 .screen{
+    color: hsl(52, 100%, 62%);
+}
