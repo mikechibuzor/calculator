@@ -68,8 +68,8 @@ button:active {
     }
 }
 
-/* @media screen and (max-width: 760px){
+@media screen and (max-width: 760px){
     .calculator-container{
-       padding-top: 20vh;
+       width: 95%;
     }
-} */
+}
