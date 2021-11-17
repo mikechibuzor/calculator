@@ -30,45 +30,6 @@ button:active {
 
 
 
-html.theme1 .wrapper {
-    background: hsl(222, 26%, 31%);
-}
-
-
-html.theme1 .calculator-screen {
-    background-color: hsl(224, 36%, 15%);
-}
-
-html.theme1 .calculator-buttons {
-    background-color: hsl(223, 31%, 20%);
-}
-
-
-html.theme2 .upper button {
-    color: hsl(221, 14%, 31%);
-    font-weight: medium;
-    background-color: hsl(30, 25%, 89%);
-    box-shadow: 1px 2.5px hsl(28, 16%, 65%);
-}
-
-html.theme1 .lower button {
-    color: white;
-}
-
-html.theme1 .lower .reset {
-    background: hsl(225, 21%, 49%);
-    box-shadow: 1px 2.5px hsl(224, 28%, 35%);
-
-}
-
-html.theme1 .equal {
-    background-color: hsl(6, 63%, 50%);
-    box-shadow: 1px 2.5px hsl(6, 70%, 34%);
-}
-
-html.theme1 .toggler {
-    background-color: hsl(223, 31%, 20%);
-}
 
 
 
@@ -101,8 +62,15 @@ html.theme1 .toggler {
 }
 
 @media screen and (min-width: 1600px) {
+    
     .calculator-screen {
         height: 15vh;
 
     }
 }
+
+/* @media screen and (max-width: 760px){
+    .calculator-container{
+       padding-top: 20vh;
+    }
+} */
