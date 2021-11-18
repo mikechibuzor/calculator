@@ -93,10 +93,15 @@ export default {
       screen.value = screen.value.toString().slice(0, -1);
     }
 
-    // for some reason the eval function throws an error when one of these operancs end the screen value
+    // for some reason the eval function throws an error when one of these operands end the screen value
     // so this helps to check and handle the error
     const validateScreenValue = ()=>{
-   
+
+      //leading zero error; bug spotted by Badmus Damola
+      // used regex to remove leading zero
+
+      screen.value = screen.value.replace(/^0+/, '');
+         
       if(screen.value.slice(screen.value.length-1,) ===  '+' ||
          screen.value.slice(screen.value.length-1,) ===  'x' ||
          screen.value.slice(screen.value.length-1,) ===  '-' ||
