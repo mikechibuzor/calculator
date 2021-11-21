@@ -100,7 +100,7 @@ export default {
       //leading zero error; bug spotted by Badmus Damola
       // used regex to remove leading zero
 
-      screen.value = screen.value.replace(/^0+/, '');
+      screen.value = screen.value.replace(/\b0+/g, '');
          
       if(screen.value.slice(screen.value.length-1,) ===  '+' ||
          screen.value.slice(screen.value.length-1,) ===  'x' ||
