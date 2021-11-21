@@ -115,7 +115,7 @@ export default {
 
     const equalHandler = ()=>{
       if(validateScreenValue()){
-        screen.value = eval(parseInt(screen.value));
+        screen.value = eval((screen.value));
       }
     
     }
