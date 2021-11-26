@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper bg-main-background   h-screen w-screen flex  xl:items-center justify-center ">
-    <div class="calculator-container mt-20  xl:w-1/4 2xl:w-2/5  rounded ">
+    <div class="calculator-container mt-20 xl:-mt-20  xl:w-1/4 2xl:w-2/5  rounded ">
 
       <!--calculator header  -->
       <div class="calculator-header  flex items-center justify-between mb-6">
