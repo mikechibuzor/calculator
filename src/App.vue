@@ -31,17 +31,17 @@
       <div class="calculator-buttons pb-5 rounded-md">
         <!-- upper -->
         <div class="upper  mt-4 p-5 2xl:p-7 grid grid-cols-4 gap-x-4 2xl:gap-x-6 2xl:gap-y-6 gap-y-4">
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">1</button>
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">2</button>
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">3</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">7</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">8</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">9</button>
           <button id="del" class="bg-white font-bold del 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md text-sm" @click="deleteHandler">DEL</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">4</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">5</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">6</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">+</button>
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">7</button>
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">8</button>
-          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">9</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">1</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">2</button>
+          <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">3</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">-</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">.</button>
           <button class="bg-white font-bold text-xl 2xl:text-2xl px-4 2xl:px-6 2xl:py-5 py-1.5 cursor-pointer rounded-md" @click="buttonHandler">0</button>
